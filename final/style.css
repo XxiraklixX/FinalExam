@@ -1,0 +1,186 @@
+body {
+  background-color:#ecceb3fc
+  ;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -20px;
+}
+
+
+.header-title {
+  text-decoration: underline;
+}
+
+.section-title {
+  text-decoration: underline;
+}
+
+.header-center {
+  display: flex;
+}
+
+.header-link {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  border-color: black;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+
+
+}
+
+.users-section,
+.add-post-section,
+.photos-section {
+  text-align: center;
+  margin: 20px;
+}
+
+
+.user-boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.user-box{
+  width: 400px;
+  height:200px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+
+.photo-boxes {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin: 10px;
+
+}
+
+
+.photo-box {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: all 0.4s;
+  cursor: pointer;
+
+}
+
+.user-box:hover,
+.photo-box:hover {
+  transform: scale(1.05);
+}
+
+.user-info {
+  font-size: 14px;
+}
+
+.add-post-section {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 20px;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-post-box {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  box-shadow: 10px 10px 34px 0px rgba(0,0,0,0.75);
+}
+
+#add-post-form {
+  margin-top: 20px;
+}
+
+#add-post-form label,
+#add-post-form input,
+#add-post-form textarea,
+#add-post-form button {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+#add-post-form button {
+  border: none;
+  background-color: #4caf50;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.photos-section {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.photo-box img {
+  width: 150px;
+  height: 150px;
+}
+
+
+
+#user-id,
+#post-title {
+  border: none;
+  border-bottom: 1px solid #000000; 
+  outline: none;
+  padding: 5px 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+#post-body {
+  border-radius: 10px;
+  border-bottom-right-radius: 0px;
+}
+
+
+.select-user-button{
+  border-radius: 30px;
+  width: 110px;
+  height: 50px;
+  background-color: transparent;
+}
+
+.select-user-button:hover{
+  background-color: rgb(196, 255, 194);
+}
+
